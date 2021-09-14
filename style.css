@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpapercave.com/wp/wp2293445.jpg);
+}
+
+.bookshelf {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(56, 56, 110);
+    border: 2px solid snow;
+    margin: 20px 20px;
+    color: snow;
+    }
+.book button {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: snow;
+    color: blue;
+}   
+.book button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    color: snow;
+} 
+    
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: snow;
+    margin: 50px;
+}
+.addNewBook {
+    border: none;
+  outline: none;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: blue;
+  background: snow;
+  transition: 0.5s ease;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+    
+}
+
+.addNewBook:hover {
+    background-color: blue;
+    color: snow;
+    cursor: pointer;
+}
+
+.bg-model {
+    background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.close {
+    position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	
+}
+.close:hover {
+    cursor: pointer;
+}
+.userInfo {
+    height: 400px;
+	width: 500px;
+	background-color: rgb(56, 56, 110);
+    color: snow;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+    
+}
+input {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 20px;
+    margin: 20px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+.submitBookInfo {
+    height: 50px;
+    width: 50%;
+    background-color: snow;
+    color: black;
+    font-size: 20px;
+}
+.submitBookInfo {
+    margin: 20px auto;
+}
+.submitBookInfo:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    
+}
+@media only screen and (max-width: 440px) {
+    .book {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+

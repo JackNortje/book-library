@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Object prac.</title>
+</head>
+<body>
+    <H1>Jacks Book Library</H1>
+    
+    
+    <div class="bookshelf"></div>
+
+
+    <div class="bg-model">
+        <form class="userInfo" action="">
+            <div class="close">+</div>
+            <label for="bookName" class="inputHeading">Name of the book: </label>
+            <input type="text" class="bookInfo" id="title" autocomplete="off" required>
+            <label for="author">Name of Author: </label>
+            <input type="text" class="bookInfo" id="author" autocomplete="off" required>
+            <label for="pageNums">Number of pages: </label>
+            <input type="text" class="bookInfo" id="pages" autocomplete="off" required>
+            <label for="read">Have you finished the book?</label>
+            <select name="read" id="read">
+                <option value="Yes">Yes 😃</option>
+                <option value="No">No 😢</option>
+                </select>
+            <button type="submit" id="send" class="submitBookInfo">Submit</button>  
+        </form>
+    </div>
+
+    <button class="addNewBook" id="addNewBook">+</button>
+    <script src="main.js"></script>
+</body>
+</html>
