@@ -17,6 +17,7 @@ body {
     width: 300px;
     background-color: rgb(56, 56, 110);
     border: 2px solid snow;
+    border-radius: 7px;
     margin: 20px 20px;
     color: snow;
     }
@@ -87,7 +88,7 @@ h1 {
     cursor: pointer;
 }
 .userInfo {
-    height: 400px;
+    height: 500px;
 	width: 500px;
 	background-color: rgb(56, 56, 110);
     color: snow;
@@ -95,10 +96,13 @@ h1 {
 	padding: 20px;
 	position: relative;
 	border-radius: 4px;
+    font-size: 20px;
+
     
 }
 input {
-    margin-top: 10px;
+    height: 50px;
+    width: 80%;
 }
 
 input {
@@ -108,6 +112,11 @@ input {
 	width: 50%;
 	padding: 8px;
 	border: 1px solid gray;
+}
+.bookInfo {
+    width: 90%;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 .submitBookInfo {
     height: 50px;
